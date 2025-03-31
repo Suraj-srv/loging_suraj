@@ -1,0 +1,152 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1d2a44, #a0d8f1); /* Dark to light gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background-color: #1d2a44; /* Navy Dark Blue */
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .input-group input:focus {
+    border-color: #5b9bd5;
+    outline: none;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .signup-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .signup-text a {
+    color: #5b9bd5;
+    text-decoration: none;
+  }
+  
+  .signup-text a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social Login Section */
+  .social-login {
+    margin-top: 20px;
+  }
+  
+  .social-login p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-icon {
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    background-color: #4CAF50;
+  }
+  
+  .social-icon i {
+    font-size: 18px;
+  }
+  
+  .social-icon.google {
+    background-color: #db4437;
+  }
+  
+  .social-icon.google:hover {
+    background-color: #c1351d;
+  }
+  
+  .social-icon.facebook {
+    background-color: #3b5998;
+  }
+  
+  .social-icon.facebook:hover {
+    background-color: #2d4373;
+  }
+  
+  .social-icon.twitter {
+    background-color: #1da1f2;
+  }
+  
+  .social-icon.twitter:hover {
+    background-color: #0d95e8;
+  }
+  
